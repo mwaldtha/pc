@@ -18,3 +18,7 @@ To delete any previous builds, rebuild, and test:
 To just run the tests you can execute:
     
     mvn test
+    
+To execute the default evaluation after creating the packaging from maven, you can run the following:
+ 
+   java -cp ./target/portfolio-0.0.1-SNAPSHOT.jar personal.capital.interview.portfolio.PortfolioEvaluation
