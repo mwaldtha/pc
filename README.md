@@ -3,7 +3,7 @@ interview
 
 A coding exercise for an interview.
 
-This repository includes the Java source code (including unit tests) and configuration for a maven project. If you do not have maven installed you can compile the Java sources, run the tests, and run the default evaluation using 
+This repository includes the Java source code (including unit tests) and configuration for a maven project. If you do not have maven installed you can compile the Java sources, run the tests, and run the requested evaluations using 
 
     compileAndRun.bat
 
