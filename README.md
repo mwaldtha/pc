@@ -19,6 +19,7 @@ To just run the tests you can execute:
     
     mvn test
     
-To execute the default evaluation after creating the packaging from maven, you can run the following:
+To execute the requested evaluations after creating the packaging from maven, you can run the following:
  
-    java -cp ./target/portfolio-0.0.1-SNAPSHOT.jar personal.capital.interview.portfolio.PortfolioEvaluation
+    java -cp ./target/portfolio-0.0.1-SNAPSHOT.jar personal.capital.interview.portfolio.PortfolioEvaluation Aggressive 9.4324 15.675
+	java -cp ./target/portfolio-0.0.1-SNAPSHOT.jar personal.capital.interview.portfolio.PortfolioEvaluation Conservative 6.189 6.3438
